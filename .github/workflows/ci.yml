@@ -2,9 +2,10 @@ name: CI
 
 on: [push]
 
-jobs:
-   =build-teste:
-    runs-on: ubuntu-latest
+jobs: 
+  build_teste:
+    runs-on: ubuntu-22.04
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
